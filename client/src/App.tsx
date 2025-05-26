@@ -96,9 +96,9 @@ function App() {
               name="language"
               children={(field) => {
                 return (
-                    <>
+                    <div className="language-container">
                       {languages.map(lang => (
-                          <label key={lang.language}>
+                          <label className="form-control" key={lang.language}>
                             <input
                                 type="radio"
                                 value={lang.language}
@@ -109,7 +109,7 @@ function App() {
                           </label>
                       ))}
 
-                    </>
+                    </div>
                 )
               }}
             />
@@ -121,6 +121,7 @@ function App() {
               </div>
           )}
           <button
+              className="btn-primary"
               type="submit"
               onClick={handleClick}
               disabled={mutation.isPending}
