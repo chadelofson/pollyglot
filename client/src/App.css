@@ -124,7 +124,7 @@ main {
 .language-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 0.25rem;
+  gap: 1.5rem;
 }
 
 .language label {
@@ -182,9 +182,7 @@ input[type="radio"]:focus {
   outline-offset: max(2px, 0.15em);
 }
 
-.form-control + .form-control {
-  margin-top: 1em;
-}
+
 
 .btn-primary {
   font-family: "Roboto", sans-serif;
