@@ -21,10 +21,10 @@ mutation.mutate(values)
 
 The useMutation hook is used to handle the asynchronous translation request.
 
-The mutation function sends a POST request to the backend translation API
-The request includes the user-entered sentence and selected language
-If the request fails, an error is thrown and handled by the UI
-If successful, the translated result is returned
+* The mutation function sends a POST request to the backend translation API
+* The request includes the user-entered sentence and selected language
+* If the request fails, an error is thrown and handled by the UI
+* If successful, the translated result is returned
 
 ### 3. UI State Management
 
